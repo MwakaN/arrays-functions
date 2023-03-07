@@ -66,5 +66,11 @@ function max(numbers) {
 
   //Question 5
 
+  let array = [3, 4, 5, 6];
 
+  let valTimesIndex = array.map(function(value, index, array){
+      return value *index;
+  });
+  
+  console.log(valTimesIndex);
 
